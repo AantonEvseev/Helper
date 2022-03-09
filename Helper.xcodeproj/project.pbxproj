@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3709202127A4205600E8972F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3709202027A4205600E8972F /* SnapKit */; };
+		37404B9027B3DFC600D2546D /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37404B8F27B3DFC600D2546D /* NewsViewController.swift */; };
+		37404B9427B4514800D2546D /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37404B9327B4514800D2546D /* WeatherViewController.swift */; };
+		37404B9627B4516800D2546D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37404B9527B4516800D2546D /* MapViewController.swift */; };
+		37404B9827B4517700D2546D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37404B9727B4517700D2546D /* ProfileViewController.swift */; };
 		37D842F92796FC4B00F7BE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D842F82796FC4B00F7BE48 /* AppDelegate.swift */; };
 		37D842FB2796FC4B00F7BE48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D842FA2796FC4B00F7BE48 /* SceneDelegate.swift */; };
 		37D842FD2796FC4B00F7BE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D842FC2796FC4B00F7BE48 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37404B8F27B3DFC600D2546D /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		37404B9327B4514800D2546D /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		37404B9527B4516800D2546D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		37404B9727B4517700D2546D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		37D842F52796FC4B00F7BE48 /* Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D842F82796FC4B00F7BE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37D842FA2796FC4B00F7BE48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +47,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37404B8D27B3DF2D00D2546D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				37404B8F27B3DFC600D2546D /* NewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		37404B8E27B3DF3D00D2546D /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				37404B9327B4514800D2546D /* WeatherViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		37404B9127B450B700D2546D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				37404B9527B4516800D2546D /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		37404B9227B450CC00D2546D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				37404B9727B4517700D2546D /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		37D842EC2796FC4B00F7BE48 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +98,10 @@
 		37D842F72796FC4B00F7BE48 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				37404B9227B450CC00D2546D /* Profile */,
+				37404B9127B450B700D2546D /* Map */,
+				37404B8E27B3DF3D00D2546D /* Weather */,
+				37404B8D27B3DF2D00D2546D /* News */,
 				37D842F82796FC4B00F7BE48 /* AppDelegate.swift */,
 				37D842FA2796FC4B00F7BE48 /* SceneDelegate.swift */,
 				37D842FC2796FC4B00F7BE48 /* ViewController.swift */,
@@ -147,8 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D842FD2796FC4B00F7BE48 /* ViewController.swift in Sources */,
+				37404B9627B4516800D2546D /* MapViewController.swift in Sources */,
+				37404B9427B4514800D2546D /* WeatherViewController.swift in Sources */,
 				37D842F92796FC4B00F7BE48 /* AppDelegate.swift in Sources */,
+				37404B9827B4517700D2546D /* ProfileViewController.swift in Sources */,
 				37D842FB2796FC4B00F7BE48 /* SceneDelegate.swift in Sources */,
+				37404B9027B3DFC600D2546D /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
